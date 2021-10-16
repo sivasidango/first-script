@@ -18,3 +18,4 @@ Begin Web Test
      Open Browser    ${url_and_browser}[0]    ${url_and_browser}[1]
      Input Text    id=twotabsearchtextbox    Ipad
      Click Button    id=nav-search-submit-button
+     Click Link    xpath=//*[@id="search"]/div[1]/div[1]/div/span[3]/div[2]/div[2]/div/span/div/div/div/div/div[2]/div[2]/div/div/div[1]/h2/a
