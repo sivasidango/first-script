@@ -7,7 +7,7 @@ Suite Teardown     Close Browser
 
 *** Tasks ***
 User Can Search for products
-     [Tags]      Search Ipad
+     [Tags]      Search Ipads
      @{url_and_browser} =    Create List    https://www.amazon.com    chrome
      Begin Web Test     @{url_and_browser}
 
