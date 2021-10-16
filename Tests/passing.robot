@@ -15,5 +15,5 @@ Begin Web Test
      [Arguments]     @{url_and_browser}
      Log Many     ${url_and_browser}[0]
      Open Browser    ${url_and_browser}[0]    ${url_and_browser}[1]
-     Input Text    id=twotabsearchtextbox    Apple Ipad
+     Input Text    id=twotabsearchtextbox    Ipad
      Click Button    id=nav-search-submit-button
